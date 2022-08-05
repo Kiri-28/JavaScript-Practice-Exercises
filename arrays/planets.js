@@ -13,10 +13,8 @@ Create a function that contains a for loop that travels through each position in
 */
 function showArrayInfo(array) {
   for(let arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {
-    /*Declare and initialize a variable that will show the position of an element inside of an array */
-    let arrayPosition = arrayIndex;
     // Declare and initialize a variable that will show the element inside of an array
-    console.log(arrayPosition, array);
+    console.log(arrayIndex, array[arrayIndex]);
   }
 }
 
