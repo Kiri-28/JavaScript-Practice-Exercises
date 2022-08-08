@@ -13,7 +13,7 @@ let planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter"];
  * @param {*} array `strings` a list of elements
  */
 function showArrayInfo(array) {
-  for(let arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {
+  for (let arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {
     // Declare and initialize a variable that will show the position of an element inside of an array
     displayPosAndName(arrayIndex, array[arrayIndex]);
   }
@@ -25,7 +25,7 @@ function showArrayInfo(array) {
  * @param {*} name 
  */
 function displayPosAndName(pos, name) {
-  console.log (`Position ${pos}: ${name}`);
+  console.log(`Position ${pos}: ${name}`);
 }
 
 showArrayInfo(planets);
