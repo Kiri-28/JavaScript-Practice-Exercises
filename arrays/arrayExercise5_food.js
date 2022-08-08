@@ -2,16 +2,18 @@
 let food1 = ['Noodle', 'Pasta', 'Ice-cream'];
 let food2 = ['Fries', 'Ice-cream', 'Pizza'];
 
-//Create a function that console.logs the repeated items
-function showCommonFood(array1, array2) {
-    // Iterate over the first array and for each element iterate over the second array searching for a coincidence
-    for(let array1Index = 0; array1Index < array1.length; array1Index++) {
-        for(let array2Index = 0; array2Index < array2.length; array2Index++) {
-            if(array1[array1Index] === array2[array2Index]) {
-                console.log(array1[array1Index]);
-            }   
+function displayIfEqual(array1, array2) {
+    let hasCoincidences = false;
+
+    array1.forEach((food1) => {
+        if (array2.findIndex((food2) => food2 === food1) >= 0) {
+            console.log(food1);
+            hasCoincidences = true
         }
-    } 
+    });
+
+    return hasCoincidences
 }
 
-showCommonFood(food1, food2);
+const result = displayIfEqual(food1, food2);
+console.log(result);
