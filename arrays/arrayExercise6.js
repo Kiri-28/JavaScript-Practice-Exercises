@@ -8,9 +8,12 @@ function showCommonItems(array1, array2, array3) {
     // Iterate over the first array, and for each item check if its repeated in the other two
     for(let array1Index = 0; array1Index < array1.length; array1Index++) {
         for(let arrayIndex = 0; arrayIndex < array2.length; arrayIndex++) {
-            
+          if(array1[array1Index] === array2[arrayIndex] || array1[array1Index] === array3[arrayIndex]) {
+            console.log(array1[array1Index]);
+          }  
         }
     }
 }
 
+showCommonItems(values1, values2, values3);
 
