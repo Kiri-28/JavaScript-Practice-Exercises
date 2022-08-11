@@ -7,7 +7,7 @@
 function findLargestOfTwo(num1, num2) {
     // Validate the parameters through an if and isNaN function
     if(isNaN(num1) || isNaN(num2)) {
-        console.log("One of the parameters is not a number.");
+        console.log("One or more of the parameters are not numbers.");
     }
 
     // Number evaluation through ifs and elses
