@@ -5,8 +5,8 @@
 
 function findLargestNumber(num1, num2, num3) {
     //Parameter validation
-    if(isNaN(num1) || isNaN(num2) || isNaN(num3)) {
-        console.log("One or more of the parameters are not numbers.")
+    if( isNaN(num1 ) || isNaN(num2) || isNaN(num3)) {
+        console.log("One or more of the parameters are not numbers.");
     }
 
     //Number evaluation

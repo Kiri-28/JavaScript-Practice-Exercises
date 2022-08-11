@@ -9,7 +9,7 @@ let input = 2;
 function isValidNumber(input) {
     //No lets do an if: if the isNaN() function returns true, then console.log "is not a number"
     if (isNaN(input)) {
-        console.log(input + " is not a number");
+        console.log(input + " is not a number")
     } else {
         console.log(input + " is a number");
     }
