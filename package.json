@@ -1,0 +1,29 @@
+{
+  "name": "javascript-practice-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiri-28/JavaScript-Practice-Exercises.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises",
+    "learn"
+  ],
+  "author": "Laura Saavedra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiri-28/JavaScript-Practice-Exercises/issues"
+  },
+  "homepage": "https://github.com/Kiri-28/JavaScript-Practice-Exercises#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
