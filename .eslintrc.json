@@ -4,16 +4,14 @@
         "es2021": true
     },
     "extends": [
-        "eslint:recommended"
+        "airbnb-base"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "rules": {
-        "semi": [
-            "warn",
-            "always"
-        ]
+        "no-console": "off",
+        "max-len": "off"
     }
 }
