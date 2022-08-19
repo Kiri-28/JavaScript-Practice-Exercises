@@ -23,4 +23,26 @@ function evalNumbers(num1, num2, operation) {
   }
 }
 
+const OperationEnum = {
+  Add: 'add',
+  Subtract: 'subtract',
+  Multiply: 'multiply',
+  Divide: 'divide',
+  Modulus: 'modulus',
+};
+
+// TODO: do the same function with switch operator instead of "if"
+// Plus, use OperationEnum
+function evalNumbersWithSwitch(num1, num2, operation) {
+  switch (key) {
+    case value:
+
+      break;
+
+    default:
+      break;
+  }
+}
+
 evalNumbers(4, 2, 'modulus');
+evalNumbersWithSwitch(4, 2, OperationEnum.Modulus);
