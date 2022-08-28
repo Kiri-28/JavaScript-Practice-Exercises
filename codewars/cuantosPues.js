@@ -7,3 +7,8 @@
 function cuantasCoincidencias(lista, elemento) {
 
 }
+
+const listaTest = ['lechuga', 'tomate', 'queso', 'tomate', 'pavo', 'queso', 'maiz', 'tomate', 'pollo'];
+const elementoTest = 'tomate';
+const coincidencias = cuantasCoincidencias(listaTest, elementoTest);
+console.log(`El elemento "${elementoTest}" se repite ${coincidencias} veces en la lista.`);
